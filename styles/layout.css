@@ -1,0 +1,49 @@
+#app{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+aside{
+  overflow: hidden;
+  
+  background-color: var(--shape-background);
+  padding: 2rem;
+
+  .aside-container{
+    max-width: 25rem;
+    margin-left: auto;
+
+    position: relative;
+    & #back{
+      position: absolute;
+      inset: 0;
+      margin-left: 2rem;
+      margin-top: 2rem;
+
+      h1{
+      font: var(--logo);
+      color: var(--pink);
+      margin-bottom: 1rem;
+     }
+    }
+  }
+  img{
+    margin-bottom: 1rem;
+  }
+}
+
+main{
+  
+  .main-container{
+    padding: 5rem 8.125rem;
+  }
+
+  header{
+    font: var(--h-md);
+  }
+  
+}
+

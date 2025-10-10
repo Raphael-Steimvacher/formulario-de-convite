@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --font-leckerli: "Leckerli One", sans-serif;
+  --logo: 400 2.5rem/100% var(--font-leckerli);
+
+  --font-baloo: "Baloo 2", sans-serif;
+  --h-md: bold 1.75rem/100% var(--font-baloo);
+  --h-sm: bold 1.125rem/100% var(--font-baloo);
+
+  --font-family: "Open Sans", sans-serif;
+  --text-md: 600 1rem/100% var(--font-family);
+  --text-sm: 600 0.875rem/100% var(--font-family);
+  --text-xs: 600 0.75rem/100% var(--font-family);
+
+  --brand-light: #59B2ff;
+  --brand-mid: #3487cf;
+  --brand-dark: #1d6fb6;
+
+  --purple: #b259ff;
+  --fuschia: #ff59f9;
+  --pink: #ff598B;
+  --orange: #ff8b59;
+  --yellow: #ffcd59;
+  --lime: #e1ff59;
+  --green: #59ff91;
+  --cyan: #59fff9;
+  --navy: #6a59ff;
+
+  --danger: #ff5959;
+
+  --input-base: #1c1f21;
+  --input-stoke: #363b40;
+  --input-placeholder: #869198;
+
+  --shape-background: #131516;
+  --shape-body: #212427;
+  --shape-button: #2d3136;
+  --shape-hover: #383d42;
+
+  --text-body: #c8cdd0;
+  --text-heading: #f9f9f9;
+}
+
+body{
+  overflow: hidden;
+
+  background-color: var(--shape-background);
+  font: var(--text-md);
+  color: var(--text-body);
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
